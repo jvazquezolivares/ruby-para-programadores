@@ -1,0 +1,31 @@
+# frozen_string_literal: true
+
+# Especifica cuál será la fuente de las gemas de este Gemfile
+source "https://rubygems.org"
+
+#Especificar la versión de Ruby
+ruby "3.1.0"
+
+# Cada gema necesita declarse en una línea diferente
+gem 'faraday'
+
+gem 'colorize'
+
+gem "nokogiri", ">= 1.4.2"
+
+# declarando membership de las gemas.
+gem 'rspec', group: :test
+gem "wirble", groups: [:development, :test]
+
+group :development do
+  gem "web-console"
+end
+
+gem "weakling",  platforms: :jruby
+
+#gem "some_internal_gem", source: "https://gems.example.com"
+
+#gem "rails", git: "https://github.com/rails/rails.git"
+
+#gem "rails", git: "https://github.com/rails/rails.git", branch: "5-0-stable"
+

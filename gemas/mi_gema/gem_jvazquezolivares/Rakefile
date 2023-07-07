@@ -1,0 +1,5 @@
+# frozen_string_literal: true
+
+# build, install y release
+require "bundler/gem_tasks"
+task default: %i[]
