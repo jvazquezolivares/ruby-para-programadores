@@ -1,0 +1,53 @@
+current directory: /Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/ext/prism
+/Users/javier/.asdf/installs/ruby/3.2.2/bin/ruby extconf.rb
+checking for prism.h in /Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/include... yes
+checking for prism/extension.h in /Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/ext... yes
+checking for whether -fvisibility=hidden is accepted as CFLAGS... yes
+compiling build/static/diagnostic.o
+compiling build/static/token_type.o
+compiling build/static/prettyprint.o
+compiling build/static/util/pm_strpbrk.o
+compiling build/static/util/pm_char.o
+compiling build/static/util/pm_memchr.o
+compiling build/static/util/pm_list.o
+compiling build/static/util/pm_strncasecmp.o
+compiling build/static/util/pm_state_stack.o
+compiling build/static/util/pm_string.o
+compiling build/static/util/pm_newline_list.o
+compiling build/static/util/pm_string_list.o
+compiling build/static/util/pm_buffer.o
+compiling build/static/util/pm_constant_pool.o
+compiling build/static/serialize.o
+compiling build/static/regexp.o
+compiling build/static/pack.o
+compiling build/static/enc/pm_shift_jis.o
+compiling build/static/enc/pm_big5.o
+compiling build/static/enc/pm_unicode.o
+compiling build/static/enc/pm_windows_31j.o
+compiling build/static/enc/pm_tables.o
+compiling build/static/enc/pm_cp51932.o
+compiling build/static/enc/pm_euc_jp.o
+compiling build/static/enc/pm_gbk.o
+compiling build/static/prism.o
+compiling build/static/options.o
+compiling build/static/node.o
+building build/libprism.a
+ar: creating archive build/libprism.a
+creating Makefile
+
+current directory: /Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20231202-30997-77hxvt sitelibdir\=./.gem.20231202-30997-77hxvt clean
+
+current directory: /Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20231202-30997-77hxvt sitelibdir\=./.gem.20231202-30997-77hxvt
+compiling api_node.c
+compiling api_pack.c
+compiling extension.c
+linking shared-object prism/prism.bundle
+
+current directory: /Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20231202-30997-77hxvt sitelibdir\=./.gem.20231202-30997-77hxvt install
+/usr/local/bin/ginstall -c -m 0755 prism.bundle ./.gem.20231202-30997-77hxvt/prism
+
+current directory: /Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20231202-30997-77hxvt sitelibdir\=./.gem.20231202-30997-77hxvt clean

@@ -1,0 +1,74 @@
+find_header: checking for prism.h in /Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/include... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/javier/.asdf/installs/ruby/3.2.2/lib "clang -o conftest -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/x86_64-darwin22 -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0 -I. -I/Users/javier/.asdf/installs/ruby/3.2.2/include  -I/usr/local/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/Users/javier/.asdf/installs/ruby/3.2.2/lib -L. -L/Users/javier/.asdf/installs/ruby/3.2.2/lib  -fstack-protector-strong -L/usr/local/opt/gmp/lib     -lruby.3.2  -lpthread  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/javier/.asdf/installs/ruby/3.2.2/lib "clang -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/x86_64-darwin22 -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0 -I. -I/Users/javier/.asdf/installs/ruby/3.2.2/include  -I/usr/local/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe   -c conftest.c"
+conftest.c:3:10: fatal error: 'prism.h' file not found
+#include <prism.h>
+         ^~~~~~~~~
+1 error generated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <prism.h>
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/javier/.asdf/installs/ruby/3.2.2/lib "clang -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/x86_64-darwin22 -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0 -I. -I/Users/javier/.asdf/installs/ruby/3.2.2/include  -I/usr/local/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -I/Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/include -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <prism.h>
+/* end */
+
+--------------------
+
+find_header: checking for prism/extension.h in /Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/ext... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/javier/.asdf/installs/ruby/3.2.2/lib "clang -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/x86_64-darwin22 -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0 -I. -I/Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/include -I/Users/javier/.asdf/installs/ruby/3.2.2/include  -I/usr/local/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe   -c conftest.c"
+conftest.c:3:10: fatal error: 'prism/extension.h' file not found
+#include <prism/extension.h>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <prism/extension.h>
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/javier/.asdf/installs/ruby/3.2.2/lib "clang -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/x86_64-darwin22 -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0 -I. -I/Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/include -I/Users/javier/.asdf/installs/ruby/3.2.2/include  -I/usr/local/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -I/Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/ext -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <prism/extension.h>
+/* end */
+
+--------------------
+
+block in append_cflags: checking for whether -fvisibility=hidden is accepted as CFLAGS... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/javier/.asdf/installs/ruby/3.2.2/lib "clang -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/x86_64-darwin22 -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/javier/.asdf/installs/ruby/3.2.2/include/ruby-3.2.0 -I. -I/Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/include -I/Users/javier/Documents/ruby_para_programadores/.bundle/bundle/ruby/3.2.0/gems/prism-0.18.0/ext -I/Users/javier/.asdf/installs/ruby/3.2.2/include  -I/usr/local/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  -fvisibility=hidden -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+--------------------
+
